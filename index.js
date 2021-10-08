@@ -2,7 +2,42 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateReadMe = ({title, description, installation, usage, contributing, test, license, github, email }) =>
-``;
+`${license}
+
+# ${title}
+
+## Description
+
+${description}
+
+## Installation
+
+Follow these instructions in order to install:
+${installation}
+
+## Usage
+
+${usage}
+
+## Contributors
+
+${contributing}
+
+## Test
+
+${test}
+
+## License
+
+This project is using ${license} as a license
+
+## Questions
+
+You can find my GitHub profile [here]('https://github.com/${github}')
+
+For more questions, contact directly at [${email}]('${email}')
+
+`;
 
 inquirer
     .prompt([
@@ -14,7 +49,7 @@ inquirer
         {
             type: 'input',
             name: 'description',
-            message: 'Describe your project',
+            message: 'Describe your project:',
         },
         {
             type: 'input',
@@ -39,6 +74,7 @@ inquirer
         {
             type: 'list',
             name: 'license',
+            message: 'What license is being used?',
             choices: ['Apache', 'Eclipse', 'GNU', 'MIT']
         },
         {

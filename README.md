@@ -1,40 +1,45 @@
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![License](https://img.shields.io/badge/License-Eclipse%202.0-blue.svg)
 
-# asd
+# Awesome 
 
 ## Table of Contents
-    * [Description](#description)
+    * [Description](#description) 
     * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contributors](#contributors)
+    * [Test](#test)
+    * [License](#license)
+    * [Questions](#questions)
 
 
 ## Description
 
-asd
+Awesome
 
 ## Installation
 
 Follow these instructions in order to install:
-asd
+stuff
 
 ## Usage
 
-asd
+other stuff
 
 ## Contributors
 
-asd
+Me
 
 ## Test
 
-asd
+quickly
 
 ## License
 
-This project is using Apache as a license
+This project is using Eclipse as a license
 
 ## Questions
 
-You can find my GitHub profile [here]('https://github.com/')
+You can find my GitHub profile [here]('https://github.com/hargis32')
 
-For more questions, contact directly at [asd]('asd')
+For more questions, contact directly at [hargis32@gmail.com](mailto:hargis32@gmail.com)
 

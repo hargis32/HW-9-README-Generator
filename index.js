@@ -7,8 +7,13 @@ const generateReadMe = ({title, description, installation, usage, contributing, 
 # ${title}
 
 ## Table of Contents
-    * [Description](#description)
+    * [Description](#description) 
     * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contributors](#contributors)
+    * [Test](#test)
+    * [License](#license)
+    * [Questions](#questions)
 
 
 ## Description
@@ -40,7 +45,7 @@ This project is using ${license} as a license
 
 You can find my GitHub profile [here]('https://github.com/${github}')
 
-For more questions, contact directly at [${email}]('${email}')
+For more questions, contact directly at [${email}](mailto:${email})
 
 `;
 

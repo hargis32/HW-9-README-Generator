@@ -2,9 +2,12 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateReadMe = ({title, description, installation, usage, contributing, test, license, github, email }) =>
-`${license}
+`![License](https://img.shields.io/badge/License-${license}%202.0-blue.svg)]
 
 # ${title}
+
+## Table of Contents
+    -[Description](#description)
 
 ## Description
 

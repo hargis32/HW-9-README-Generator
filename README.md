@@ -39,7 +39,7 @@ This project is using Eclipse as a license
 
 ## Questions
 
-You can find my GitHub profile [here]('https://github.com/hargis32')
+You can find my GitHub profile [here](https://github.com/hargis32)
 
 For more questions, contact directly at [hargis32@gmail.com](mailto:hargis32@gmail.com)
 

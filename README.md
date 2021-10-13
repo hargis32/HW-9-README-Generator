@@ -1,9 +1,11 @@
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 # asd
 
 ## Table of Contents
-    -[Description](#description)
+    * [Description](#description)
+    * [Installation](#installation)
+
 
 ## Description
 

@@ -1,45 +1,24 @@
-![License](https://img.shields.io/badge/License-Eclipse%202.0-blue.svg)
+ ![License](https://img.shields.io/badge/License-MIT%202.0-blue.svg)
 
-# Awesome 
+ # README Generator
 
-## Table of Contents
-    * [Description](#description) 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributors](#contributors)
-    * [Test](#test)
-    * [License](#license)
-    * [Questions](#questions)
+ ## Description
 
+ This application used command line to generate a README file. The user is prompted to answer questions pertaining to thier project, and the answers are passed into a professional README  format. 
 
-## Description <a name="description"></a>
+ ## Installation
+ 
+ On the command line, first run: "npm install", followed by "npm install inquirer". Then, run: "node index.js". The user will then be prompted to answer the questions.
 
-Awesome
+ ## Usage
+  
+  Follow this link to watch a walkthrough of the application:
+ * https://watch.screencastify.com/v/kU40xgY1rg7sGfBDFjwM
 
-## Installation
+## Credits
 
-Follow these instructions in order to install:
-stuff
-
-## Usage
-
-other stuff
-
-## Contributors
-
-Me
-
-## Test
-
-quickly
+Austin Pratt
 
 ## License
 
-This project is using Eclipse as a license
-
-## Questions
-
-You can find my GitHub profile [here](https://github.com/hargis32)
-
-For more questions, contact directly at [hargis32@gmail.com](mailto:hargis32@gmail.com)
-
+This project is usint the MIT license. 

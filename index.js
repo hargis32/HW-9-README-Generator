@@ -7,14 +7,13 @@ const generateReadMe = ({title, description, installation, usage, contributing, 
 # ${title}
 
 ## Table of Contents
-    * [Description](#description) 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributors](#contributors)
-    * [Test](#test)
-    * [License](#license)
-    * [Questions](#questions)
-
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributors](#contributors)
+* [Test](#test)
+* [License](#license)
+* [Questions](#questions)
 
 ## Description
 
@@ -43,7 +42,7 @@ This project is using ${license} as a license
 
 ## Questions
 
-You can find my GitHub profile [here]('https://github.com/${github}')
+You can find my GitHub profile [here](https://github.com/${github})
 
 For more questions, contact directly at [${email}](mailto:${email})
 
@@ -101,7 +100,7 @@ inquirer
     .then((answers) => {
         const readMeContent = generateReadMe(answers);
 
-        fs.writeFile('README.md', readMeContent, (err) =>
+        fs.writeFile('./dist/README.md', readMeContent, (err) =>
             err ? console.log(err) : console.log('Success!')
         );
     });
